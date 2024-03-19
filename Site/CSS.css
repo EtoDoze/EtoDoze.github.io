@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-image: url(images/espaço\ background\ 1.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+.Titulo{
+    text-align: start;
+    font-style: oblique;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.principal{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    background-color: rgb(53, 98, 196);
+    border-bottom: 10px solid #7077A1;
+    border-bottom-style: groove;
+}
+
+.Center{
+    border-radius: 100%;
+    text-align: right;
+}
+
+.Youtube{
+    width: 80%;
+    text-align: end;   
+    color: red;
+}
+
+#Logo{
+    height: 50px;
+    width: 50px;
+}
+
+#LinkYT{
+    color: red;
+}
