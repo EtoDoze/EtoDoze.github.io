@@ -3,16 +3,23 @@
 }
 
 body{
-    background: blue;
+    background-image: url(images/City-BG.gif);
+    background-size: cover;
 }
 
 /* Barra do topo: */ 
 
-.Barra{
-    display: flex;
+.Parte1{
+    position: fixed;
+
+}
+#Barra{
     background: rgb(36, 106, 235);
+    width: 100%;
     height: 60px;
     border-bottom: 2px solid aqua;
+    display: flex;
+
 }
 
 #titulo{
@@ -29,29 +36,31 @@ body{
 }
 
 .Barra-Inicio{
-    display: flex;
-    justify-content: stretch;
     background: rgb(69, 144, 243);
+    border: 5px solid purple;
+    border-radius: 50px;
     height: 500px;
     width: 60%;
     margin-left: 18%;
-    font-size: 25px;
-}
-
-#Hinata{
-    align-items: start;
-    background: red;
-    text-align: start;
-
 }
 
 /*parte 2*/
 
-.Barra2{
-    background: red;
+#Barra2{
+    background-image: url(images/gradiente-blue);
+    border: 2px solid orange;
+    border-radius: 50px;
     height: 600px;
     width: 40%;
-    margin-left: 5%;
     margin-top: 5%;
 
+
+}
+
+.parte2{
+    display: flex;
+}
+
+#makoto{
+    width: 500px;
 }
