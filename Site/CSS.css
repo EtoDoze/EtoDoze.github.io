@@ -1,47 +1,57 @@
 *{
     margin: 0;
-    padding: 0;
 }
 
 body{
-
-    background-image: url(images/espaço\ background\ 1.jpg);
-    background-repeat: repeat-y;
-    background-size: 100%;
+    background: blue;
 }
 
-.Titulo{
-    text-align: start;
-    font-style: oblique;
-    font-size: 50px;
-    font-family: sans-serif;
-}
+/* Barra do topo: */ 
 
-.principal{
-    width: 100%;
-    position: fixed;
+.Barra{
     display: flex;
-    background-color: rgb(53, 98, 196);
-    border-bottom: 10px solid #7077A1;
-    border-bottom-style: groove;
+    background: rgb(36, 106, 235);
+    height: 60px;
+    border-bottom: 2px solid aqua;
 }
 
-.Center{
-    border-radius: 100%;
-    text-align: right;
+#titulo{
+    text-align: start;
+    font-family: sans-serif;
+    font-size: 40px;
 }
 
-.Youtube{
-    width: 80%;
-    text-align: end;   
-    color: red;
+/* Tela inicial:*/
+
+#welcome{
+    text-align:center;
+    font-size: 60px;
 }
 
-#Logo{
-    height: 50px;
-    width: 50px;
+.Barra-Inicio{
+    display: flex;
+    justify-content: stretch;
+    background: rgb(69, 144, 243);
+    height: 500px;
+    width: 60%;
+    margin-left: 18%;
+    font-size: 25px;
 }
 
-#LinkYT{
-    color: red;
+#Hinata{
+    align-items: start;
+    background: red;
+    text-align: start;
+
+}
+
+/*parte 2*/
+
+.Barra2{
+    background: red;
+    height: 600px;
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 5%;
+
 }
