@@ -5,6 +5,7 @@
 body{
     background-image: url(images/City-BG.gif);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 /* Barra do topo: */ 
