@@ -217,7 +217,7 @@ body{
 
     #welcome{
         font-size: 35px;
-        margin-right: 100px;
+        margin-right: 50%px;
     }
 
     #Paragrafo{
@@ -303,4 +303,33 @@ body{
         padding-top: 10px;
     }
   }
-/*MENU MOBILE*/
+
+      /*TELA 400PX*/
+
+
+@media screen and (max-width: 500px){
+
+    #welcome{
+        font-size: 25px;
+    }
+    .Redes{
+        display: grid;
+    }
+
+    .Abas{
+        display: grid;
+    }
+
+    #Paragrafo{
+        text-align: start;
+        margin-left: 10px;
+        font-size: 10px
+    }
+
+    .Barra-Inicio{
+        height: 500px;
+        width: 90%;
+        margin-left: 0;
+        align-items: center center;
+    }
+}
