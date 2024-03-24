@@ -198,3 +198,54 @@ body{
     display: flex;
     justify-content: space-around;
 }
+
+/* TELA 1300PX*/
+
+@media screen and (max-width: 1300px){
+
+
+    .Barra2{
+        height: 800px;
+        width: 50%;
+        margin-left: 0;
+        align-items: center center;
+    }
+
+    #Paragrafo{
+        font-size: 25px;
+    }
+
+}
+
+      /*TELA 500PX*/
+
+
+@media screen and (max-width: 700px){
+
+    
+    #makoto{
+        display: none;
+    }
+
+    .Redes{
+        display: grid;
+    }
+
+    .Abas{
+        display: grid;
+    }
+
+    .Barra2{
+        width: 99%;
+    }
+
+    .jogos{
+        flex-direction: column;
+        display: grid;
+        justify-content: space-around;
+    }
+
+    .Jogos-txt{
+        display: none;
+    }
+}
