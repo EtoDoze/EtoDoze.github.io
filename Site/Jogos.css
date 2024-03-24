@@ -51,7 +51,7 @@ body{
 }
 
 .Abas{
-    font-size: 1vw;
+    font-size: 1.5vw;
     font-family: monospace;
     font-style: normal;
 
@@ -67,9 +67,7 @@ body{
     text-decoration: none;
     font-size: 25px;
     font-weight: bold;
-}
-#Jogos:hover{
-    color: blue;
+    color: darkblue;
 }
 
 #Model{
@@ -99,26 +97,32 @@ body{
 #Start{
     cursor: pointer;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 25px;
     font-weight: bold;
-    color: darkblue;
-    display: none;
+    color: black;
+}
+#Start:hover{
+    color: blue;
 }
 
 
+/*parte 2*/
 
-/* Tela inicial:*/
-
-#welcome{
-    text-align:center;
-    font-size: 60px;
-}
-
-.Barra-Inicio{
-    background: rgb(69, 144, 243);
-    border: 5px solid purple;
+#Barra2{
+    background-image: url(images/Mob-BG.gif);
+    border: 2px solid orange;
     border-radius: 50px;
-    height: 500px;
-    width: 60%;
-    margin-left: 18%;
+    height: 600px;
+    width: 40%;
+    margin-top: 5%;
+
+
+}
+
+.parte2{
+    display: flex;
+}
+
+#makoto{
+    width: 500px;
 }
