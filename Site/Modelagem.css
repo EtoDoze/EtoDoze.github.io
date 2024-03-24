@@ -12,7 +12,7 @@ body{
 /* Barra do topo: */ 
 
 .Barra{
-    background: linear-gradient(45deg, rgb(52, 92, 223), rgb(39, 19, 150));
+    background-image: url(images/Mob-BG.gif);
     border-bottom: 2px solid rgb(19, 43, 75);
     border-end-end-radius: 20px;
     padding-bottom: 10px;
@@ -21,7 +21,6 @@ body{
 }
 
 #Titulo{
-    background: red;
     text-align: start;
     font-size: 35px;
     font-style: oblique;
@@ -105,19 +104,69 @@ body{
 
 /*parte 3*/
 
-#Barra3{
+.Barra3{
     background-image: url(images/Mob-BG.gif);
     border: 2px solid rgb(0, 255, 89);
     border-radius: 50px;
-    height: 600px;
+    height: 300px;
     width: 50%;
-    margin-top: 5%;
+    margin-top: 2%;
+}
+
+#paragrafo{
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
 }
 
 .parte3{
     display: flex;
+    justify-content: space-around;
 }
 
-#sla{
+.Modelos{
+    display: grid;
+
+}
+
+.Models-fav{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
     width: 500px;
+    padding-bottom: 200px;
+    padding-top: 50px;
+    padding-left: 100px;
+    
+}
+
+#Ren{
+    animation: Ren 10s infinite linear;
+    align-items: center center;
+    width: 500px;
+    height: 700px;
+}
+
+@keyframes Ren {
+    
+    0%{
+        transform: rotate(0deg);
+    }
+
+    25%{
+        transform: rotate(2deg);
+    }
+
+    50%{
+        transform: rotate(0deg);
+
+    }
+
+    75%{
+        transform: rotate(-2deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
 }

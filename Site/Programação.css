@@ -12,7 +12,7 @@ body{
 /* Barra do topo: */ 
 
 .Barra{
-    background: linear-gradient(45deg, rgb(52, 92, 223), rgb(39, 19, 150));
+    background-image: url(images/Mob-BG.gif);
     border-bottom: 2px solid rgb(19, 43, 75);
     border-end-end-radius: 20px;
     padding-bottom: 10px;
@@ -21,7 +21,6 @@ body{
 }
 
 #Titulo{
-    background: red;
     text-align: start;
     font-size: 35px;
     font-style: oblique;
@@ -108,5 +107,31 @@ body{
 
 
 
-/* Parte 3:*/
+/* Parte 4:*/
 
+#Barra4{
+    background: rgb(50, 126, 197);
+    border: 2px solid rgb(236, 50, 37);
+    border-radius: 50px;
+    height: 450px;
+    width: 50%;
+    margin-left: 1%;
+}
+
+#txt{
+    font-family: cursive;
+    font-size: 25px;
+    text-align: initial;
+    text-align: center;
+}
+
+.parte4{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Hinata{
+    height: 600px;
+    width: 500px;
+
+}
