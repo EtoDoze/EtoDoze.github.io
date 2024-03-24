@@ -138,7 +138,7 @@ body{
 }
 
 #Paragrafo{
-    text-align: center;
+    text-align: initial;
     font-family: cursive;
     font-size: 30px;
 }
@@ -248,4 +248,14 @@ body{
     .Jogos-txt{
         display: none;
     }
+}
+
+@media screen and (max-width: 400px){
+    #Paragrafo{
+        font-size: 25px;
+        margin-top: 15px;
+        text-align: start;
+    }
+
+
 }

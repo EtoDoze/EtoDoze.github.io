@@ -170,3 +170,75 @@ body{
         transform: rotate(0deg);
     }
 }
+
+/* TELA 1300PX*/
+
+@media screen and (max-width: 1300px){
+
+    #welcome{
+        font-size: 50px;
+    }
+
+    #Paragrafo{
+        font-size: 25px;
+    }
+
+}
+
+      /*TELA 500PX*/
+
+
+@media screen and (max-width: 500px){
+
+    #Ren{
+        display: none;
+    }
+
+
+
+    .Redes{
+        display: grid;
+    }
+
+    .Abas{
+        display: grid;
+    }
+
+    .Barra3{
+        height: 500px;
+        width: 85%;
+        margin-left: 10px;
+    }
+
+    .Barra{
+        width: 99%;
+    }
+
+    .Models-fav{
+        height: 100px;
+        width: 300px;
+        padding-left: 70px;
+        padding-right: 0;
+        display: grid;
+        flex-direction: column;
+        padding-bottom: 0px;
+        padding-top: 10px;        
+    }
+    
+    .Modelos{
+        display: grid;
+    }
+
+    .parte3{
+    display: contents;
+    justify-content: space-around;
+ }
+
+ #Monokuma{
+    display: none;
+ }
+
+ #Neko{
+    display: none;
+ }
+}
