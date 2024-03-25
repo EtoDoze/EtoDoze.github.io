@@ -135,3 +135,60 @@ body{
     width: 500px;
 
 }
+
+/* TELA 1300PX*/
+
+@media screen and (max-width: 1300px){
+
+    #Paragrafo{
+        font-size: 25px;
+    }
+
+}
+
+      /*TELA 500PX*/
+
+
+@media screen and (max-width: 500px){
+
+
+    .Redes{
+        display: grid;
+    }
+
+    .Abas{
+        display: grid;
+    }
+
+    #txt{
+        font-size: 15px;
+        margin-left: 10%;
+        text-align: start;
+    }
+
+    .Barra{
+        width: 99%;
+    }
+
+    .parte4{
+    display: flex;
+    justify-content: space-around;
+    }
+
+    #Hinata{
+        margin-left: 10%;
+        height: 400px;
+        width: 40%;
+        
+    }
+
+    #Barra4{
+        background: rgb(50, 126, 197);
+        border: 2px solid rgb(236, 50, 37);
+        border-radius: 50px;
+        height: 450px;
+        width: 350px;
+        margin-left: 1%;
+    }
+
+ }
