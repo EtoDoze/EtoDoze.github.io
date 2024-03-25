@@ -106,7 +106,7 @@ body{
 
 .Barra3{
     background-image: url(images/Mob-BG.gif);
-    border: 2px solid rgb(0, 255, 89);
+    border: 2px solid rgb(135, 42, 189);
     border-radius: 50px;
     height: 300px;
     width: 50%;
@@ -115,7 +115,7 @@ body{
 
 #paragrafo{
     text-align: center;
-    font-family: cursive;
+    font-family: sans-serif;
     font-size: 30px;
 }
 
@@ -190,6 +190,10 @@ body{
 
 @media screen and (max-width: 500px){
 
+    #paragrafo{
+        font-size: 30px;
+    }
+
     #Ren{
         display: none;
     }
@@ -222,7 +226,8 @@ body{
         display: grid;
         flex-direction: column;
         padding-bottom: 0px;
-        padding-top: 10px;        
+        padding-top: 10px;  
+        margin-top: 120px;
     }
     
     .Modelos{
