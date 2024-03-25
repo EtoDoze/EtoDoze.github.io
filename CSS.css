@@ -250,3 +250,731 @@ body{
         width: 99%;
     }
 }
+
+
+
+/*JOGOS*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(images/City-BG.gif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Barra do topo: */ 
+
+.Barra{
+    background-image: url(images/Mob-BG.gif);
+    border-bottom: 2px solid rgb(19, 43, 75);
+    border-end-end-radius: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Titulo{
+    text-align: start;
+    font-size: 35px;
+    font-style: oblique;
+    font-family: sans-serif;
+    font: bolder;
+}
+
+.Redes button{
+    cursor: pointer;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(1, 1, 32);
+    background: linear-gradient(40deg, rgb(53, 38, 250), rgb(25, 49, 94))
+}
+
+.Redes button:hover{
+    transition: 2.5s;
+    background: linear-gradient(40deg, rgb(23, 16, 114), rgb(11, 28, 58))
+}
+
+.Redes button i{
+    font-size: 20px;
+    padding-bottom: 10px;
+    transition: 2.5s;
+}
+
+.Abas{
+    font-size: 1.5vw;
+    font-family: monospace;
+    font-style: normal;
+
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Jogos{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+#Model{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+
+}
+#Model:hover{
+    color: blue;
+}
+
+#Program{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+
+}
+#Program:hover{
+    color: blue;
+}
+
+#Start{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+#Start:hover{
+    color: blue;
+}
+
+
+/*parte 2*/
+
+#titulo{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: cursive;
+    
+}
+
+.Barra2{
+    background-image: url(images/Mob-BG.gif);
+    border: 2px solid orange;
+    border-radius: 50px;
+    height: 600px;
+    width: 60%;
+    margin-top: 5%;
+
+
+}
+
+.parte2{
+    display: flex;
+}
+
+#makoto{
+    width: 500px;
+    padding-top: 100px;
+    border-end-end-radius: 200px;
+    animation: rotation 10s infinite linear;
+}
+
+#Paragrafo{
+    text-align: initial;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+
+@keyframes rotation {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    25%{
+        transform: rotate(2deg);
+    }
+
+    50%{
+        transform: rotate(0deg);
+    }
+
+    75%{
+        transform: rotate(-2deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+
+#titulo2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: cursive;
+    animation: rotation 10s infinite linear;
+
+}
+
+.jogos{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#Spider{
+    border-radius: 20px;
+    border: 5px solid rgb(80, 80, 80);
+}
+
+#Maluka{
+    border-radius: 20px;
+    border: 5px solid red;
+}
+
+.Jogos-txt{
+    font-size: 30px;
+    font-family: monospace;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* TELA 1300PX*/
+
+@media screen and (max-width: 1300px){
+
+
+    .Barra2{
+        height: 800px;
+        width: 50%;
+        margin-left: 0;
+        align-items: center center;
+    }
+
+    #Paragrafo{
+        font-size: 25px;
+    }
+
+}
+
+      /*TELA 500PX*/
+
+
+@media screen and (max-width: 700px){
+
+    
+    #makoto{
+        display: none;
+    }
+
+    .Redes{
+        display: grid;
+    }
+
+    .Abas{
+        display: grid;
+    }
+
+    .Barra2{
+        width: 99%;
+    }
+
+    .jogos{
+        flex-direction: column;
+        display: grid;
+        justify-content: space-around;
+    }
+
+    .Jogos-txt{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #Paragrafo{
+        font-size: 25px;
+        margin-top: 15px;
+        text-align: start;
+    }
+
+
+}
+
+
+
+/*MODELAGEM*/
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(images/City-BG.gif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Barra do topo: */ 
+
+.Barra{
+    background-image: url(images/Mob-BG.gif);
+    border-bottom: 2px solid rgb(19, 43, 75);
+    border-end-end-radius: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Titulo{
+    text-align: start;
+    font-size: 35px;
+    font-style: oblique;
+    font-family: sans-serif;
+    font: bolder;
+}
+
+.Redes button{
+    cursor: pointer;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(1, 1, 32);
+    background: linear-gradient(40deg, rgb(53, 38, 250), rgb(25, 49, 94))
+}
+
+.Redes button:hover{
+    transition: 2.5s;
+    background: linear-gradient(40deg, rgb(23, 16, 114), rgb(11, 28, 58))
+}
+
+.Redes button i{
+    font-size: 20px;
+    padding-bottom: 10px;
+    transition: 2.5s;
+}
+
+.Abas{
+    font-size: 1.5vw;
+    font-family: monospace;
+    font-style: normal;
+
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Jogos{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+#Jogos:hover{
+    color: blue;
+}
+
+#Model{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+#Program{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+
+}
+#Program:hover{
+    color: blue;
+}
+
+#Start{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+#Start:hover{
+    color: blue;
+}
+
+/*parte 3*/
+
+.Barra3{
+    background-image: url(images/Mob-BG.gif);
+    border: 2px solid rgb(135, 42, 189);
+    border-radius: 50px;
+    height: 300px;
+    width: 50%;
+    margin-top: 2%;
+}
+
+#paragrafo{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.parte3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Modelos{
+    display: grid;
+
+}
+
+.Models-fav{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 500px;
+    padding-bottom: 200px;
+    padding-top: 50px;
+    padding-left: 100px;
+    
+}
+
+#Ren{
+    animation: Ren 10s infinite linear;
+    align-items: center center;
+    width: 500px;
+    height: 700px;
+}
+
+@keyframes Ren {
+    
+    0%{
+        transform: rotate(0deg);
+    }
+
+    25%{
+        transform: rotate(2deg);
+    }
+
+    50%{
+        transform: rotate(0deg);
+
+    }
+
+    75%{
+        transform: rotate(-2deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+/* TELA 1300PX*/
+
+@media screen and (max-width: 1300px){
+
+    #welcome{
+        font-size: 50px;
+    }
+
+    #Paragrafo{
+        font-size: 25px;
+    }
+
+}
+
+      /*TELA 500PX*/
+
+
+@media screen and (max-width: 500px){
+
+    #paragrafo{
+        font-size: 30px;
+    }
+
+    #Ren{
+        display: none;
+    }
+
+
+
+    .Redes{
+        display: grid;
+    }
+
+    .Abas{
+        display: grid;
+    }
+
+    .Barra3{
+        height: 500px;
+        width: 85%;
+        margin-left: 10px;
+    }
+
+    .Barra{
+        width: 99%;
+    }
+
+    .Models-fav{
+        height: 100px;
+        width: 300px;
+        padding-left: 70px;
+        padding-right: 0;
+        display: grid;
+        flex-direction: column;
+        padding-bottom: 0px;
+        padding-top: 10px;  
+        margin-top: 120px;
+    }
+    
+    .Modelos{
+        display: grid;
+    }
+
+    .parte3{
+    display: contents;
+    justify-content: space-around;
+ }
+
+ #Monokuma{
+    display: none;
+ }
+
+ #Neko{
+    display: none;
+ }
+}
+
+
+
+/*PROGRAMACAO*/
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(images/City-BG.gif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Barra do topo: */ 
+
+.Barra{
+    background-image: url(images/Mob-BG.gif);
+    border-bottom: 2px solid rgb(19, 43, 75);
+    border-end-end-radius: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Titulo{
+    text-align: start;
+    font-size: 35px;
+    font-style: oblique;
+    font-family: sans-serif;
+    font: bolder;
+}
+
+.Redes button{
+    cursor: pointer;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(1, 1, 32);
+    background: linear-gradient(40deg, rgb(53, 38, 250), rgb(25, 49, 94))
+}
+
+.Redes button:hover{
+    transition: 2.5s;
+    background: linear-gradient(40deg, rgb(23, 16, 114), rgb(11, 28, 58))
+}
+
+.Redes button i{
+    font-size: 20px;
+    padding-bottom: 10px;
+    transition: 2.5s;
+}
+
+.Abas{
+    font-size: 1.5vw;
+    font-family: monospace;
+    font-style: normal;
+
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Jogos{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+#Jogos:hover{
+    color: blue;
+}
+
+#Model{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+
+}
+#Model:hover{
+    color: blue;
+}
+
+#Program{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+
+#Start{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+#Start:hover{
+    color: blue;
+}
+
+
+
+
+
+/* Parte 4:*/
+
+#Barra4{
+    background: rgb(50, 126, 197);
+    border: 2px solid rgb(236, 50, 37);
+    border-radius: 50px;
+    height: 450px;
+    width: 50%;
+    margin-left: 1%;
+}
+
+#txt{
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: initial;
+    text-align: center;
+}
+
+.parte4{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Hinata{
+    height: 600px;
+    width: 500px;
+
+}
+
+/* TELA 1300PX*/
+
+@media screen and (max-width: 1300px){
+
+    #Paragrafo{
+        font-size: 25px;
+    }
+
+}
+
+      /*TELA 500PX*/
+
+
+@media screen and (max-width: 500px){
+
+
+    .Redes{
+        display: grid;
+    }
+
+    .Abas{
+        display: grid;
+    }
+
+    #txt{
+        font-size: 15px;
+        margin-left: 10%;
+        text-align: start;
+        margin-top: 10px;
+    }
+
+    .Barra{
+        width: 99%;
+    }
+
+    .parte4{
+    display: flex;
+    justify-content: space-around;
+    }
+
+    #Hinata{
+        margin-left: 10%;
+        height: 400px;
+        width: 40%;
+        
+    }
+
+    #Barra4{
+        background: rgb(50, 126, 197);
+        border: 2px solid rgb(236, 50, 37);
+        border-radius: 50px;
+        height: 450px;
+        width: 350px;
+        margin-left: 1%;
+    }
+
+ }
