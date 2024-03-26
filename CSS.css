@@ -101,7 +101,7 @@ body{
     text-decoration: none;
     font-size: 10px;
     font-weight: bold;
-    color: darkblue;
+    color: black;
     display: none;
 }
 
@@ -325,7 +325,7 @@ body{
     text-decoration: none;
     font-size: 25px;
     font-weight: bold;
-    color: darkblue;
+    color: black;
 }
 
 #Model{
@@ -604,7 +604,7 @@ body{
     text-decoration: none;
     font-size: 25px;
     font-weight: bold;
-    color: darkblue;
+    color: black;
 }
 
 #Program{
@@ -873,7 +873,7 @@ body{
     text-decoration: none;
     font-size: 25px;
     font-weight: bold;
-    color: darkblue;
+    color: black;
 }
 
 
