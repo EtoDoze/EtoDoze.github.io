@@ -36,7 +36,6 @@ body{
     border-radius: 5px;
     border: 1px solid rgb(1, 1, 32);
     background: linear-gradient(40deg, rgb(53, 38, 250), rgb(25, 49, 94))
-
 }
 
 .Redes button:hover{
@@ -51,7 +50,7 @@ body{
 }
 
 .Abas{
-    font-size: 1vw;
+    font-size: 1.5vw;
     font-family: monospace;
     font-style: normal;
 
@@ -67,9 +66,7 @@ body{
     text-decoration: none;
     font-size: 25px;
     font-weight: bold;
-}
-#Jogos:hover{
-    color: blue;
+    color: darkblue;
 }
 
 #Model{
@@ -99,106 +96,119 @@ body{
 #Start{
     cursor: pointer;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 25px;
     font-weight: bold;
-    color: darkblue;
-    display: none;
+    color: black;
+}
+#Start:hover{
+    color: blue;
 }
 
 
+/*parte 2*/
 
-/* Tela inicial:*/
-
-#welcome{
-    transition: 2.5s;
-    text-align:center;
-    font-size: 70px;
+#titulo{
+    text-align: center;
+    font-size: 50px;
     font-weight: bold;
     font-family: cursive;
-    background: linear-gradient(40deg, rgb(86, 50, 185), rgb(45, 184, 226));
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    rotate: 60px;
-    animation: textim 10s infinite linear;
+    
 }
 
-@keyframes textim {
+.Barra2{
+    background-image: url(images/Mob-BG.gif);
+    border: 2px solid orange;
+    border-radius: 50px;
+    height: 600px;
+    width: 60%;
+    margin-top: 5%;
+
+
+}
+
+.parte2{
+    display: flex;
+}
+
+#makoto{
+    width: 500px;
+    padding-top: 100px;
+    border-end-end-radius: 200px;
+    animation: rotation 10s infinite linear;
+}
+
+#Paragrafo{
+    text-align: initial;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+
+@keyframes rotation {
     0%{
         transform: rotate(0deg);
-        transform: scale(1,1);
-        color: rgb(35, 35, 173);
     }
 
     25%{
-        transform: rotate(4deg);
-        color: rgb(33, 73, 184);
-        transform: scale(1.2,1.1);
-
+        transform: rotate(2deg);
     }
 
     50%{
-        transform: rotate(-4deg); 
-        color: rgb(75, 114, 197);
-        transform: scale(1.1,1.2);
+        transform: rotate(0deg);
     }
 
     75%{
-        transform: rotate(4deg); 
-        color:rgb(41, 117, 179);
-        transform: scale(1.2,1.3);
+        transform: rotate(-2deg);
     }
 
     100%{
         transform: rotate(0deg);
-        color: rgb(35, 35, 173);
-        transform: scale(1,1);
-
     }
 }
 
-.Barra-Inicio{
-    background: rgb(69, 144, 243);
-    border: 5px solid purple;
-    border-radius: 50px;
-    height: 500px;
-    width: 60%;
-    margin-left: 18%;
-}
 
-#texto-geral{
-    padding-top: 5px;
+#titulo2{
     text-align: center;
-
-}
-
-#Atenção{
-    font-size: 35px;
+    font-size: 50px;
     font-weight: bold;
-    text-align: center center;
-    display: grid;
-    text-decoration-color: rgb(0, 0, 0);
-    font-family: monospace;
+    font-family: cursive;
+    animation: rotation 10s infinite linear;
+
 }
 
-#Paragrafo{
-    font-family: sans-serif;
-    font-size: 25px;
-    text-align: initial;
+.jogos{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#Spider{
+    border-radius: 20px;
+    border: 5px solid rgb(80, 80, 80);
+}
+
+#Maluka{
+    border-radius: 20px;
+    border: 5px solid red;
+}
+
+.Jogos-txt{
+    font-size: 30px;
+    font-family: monospace;
+    display: flex;
+    justify-content: space-around;
 }
 
 /* TELA 1300PX*/
 
 @media screen and (max-width: 1300px){
-    .Barra-Inicio{
+
+
+    .Barra2{
         height: 800px;
-        width: 80%;
+        width: 50%;
         margin-left: 0;
         align-items: center center;
-    }
-
-    #welcome{
-        font-size: 50px;
     }
 
     #Paragrafo{
@@ -207,20 +217,16 @@ body{
 
 }
 
-
-/* TELA 600PX*/
-
-
-
-
       /*TELA 500PX*/
 
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 700px){
 
-    #welcome{
-        font-size: 35px;
+    
+    #makoto{
+        display: none;
     }
+
     .Redes{
         display: grid;
     }
@@ -229,24 +235,27 @@ body{
         display: grid;
     }
 
-    #Atenção{
-        font-size: 20px;
-    }
-
-    #Paragrafo{
-        text-align: start;
-        margin-left: 10px;
-        font-size: 16px
-    }
-
-    .Barra-Inicio{
-        height: 500px;
-        width: 90%;
-        margin-left: 0;
-        align-items: center center;
-    }
-
-    .Barra{
+    .Barra2{
         width: 99%;
     }
+
+    .jogos{
+        flex-direction: column;
+        display: grid;
+        justify-content: space-around;
+    }
+
+    .Jogos-txt{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #Paragrafo{
+        font-size: 25px;
+        margin-top: 15px;
+        text-align: start;
+    }
+
+
 }
