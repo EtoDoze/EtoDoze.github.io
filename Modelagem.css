@@ -105,8 +105,8 @@ body{
 /*parte 3*/
 
 .Barra3{
-    background-image: url(images/Mob-BG.gif);
-    border: 2px solid rgb(0, 255, 89);
+    background: linear-gradient(40deg, rgb(121, 173, 224), rgb(35, 92, 247));
+    border: 2px solid rgb(80, 38, 114);
     border-radius: 50px;
     height: 300px;
     width: 50%;
@@ -114,6 +114,7 @@ body{
 }
 
 #paragrafo{
+    color: black;
     text-align: center;
     font-family: cursive;
     font-size: 30px;

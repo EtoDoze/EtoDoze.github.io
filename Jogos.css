@@ -116,8 +116,8 @@ body{
 }
 
 .Barra2{
-    background-image: url(images/Mob-BG.gif);
-    border: 2px solid orange;
+    background: linear-gradient(40deg, rgb(121, 173, 224), rgb(35, 92, 247));
+    border: 2px solid rgb(80, 38, 114);
     border-radius: 50px;
     height: 600px;
     width: 60%;
@@ -138,9 +138,12 @@ body{
 }
 
 #Paragrafo{
+    color: black;
     text-align: initial;
     font-family: cursive;
-    font-size: 30px;
+    font-size: 28px;
+    padding-top: 10px;
+    padding-left: 5px;
 }
 
 

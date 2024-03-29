@@ -121,6 +121,7 @@ body{
     color: transparent;
     rotate: 60px;
     animation: textim 10s infinite linear;
+    -webkit-text-stroke: 2px rgb(32, 30, 32);
 }
 
 @keyframes textim {
@@ -158,8 +159,8 @@ body{
 }
 
 .Barra-Inicio{
-    background: rgb(69, 144, 243);
-    border: 5px solid purple;
+    background: linear-gradient(40deg, rgb(121, 173, 224), rgb(35, 92, 247));
+    border: 3px solid purple;
     border-radius: 50px;
     height: 500px;
     width: 60%;
@@ -185,6 +186,7 @@ body{
     font-family: sans-serif;
     font-size: 25px;
     text-align: initial;
+    color: black;
 }
 
 /* TELA 1300PX*/
