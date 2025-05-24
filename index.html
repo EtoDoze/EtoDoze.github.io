@@ -1,72 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <link rel="stylesheet" href="CSS.css">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EtoDoze</title>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6606375544919322"
-     crossorigin="anonymous"></script>
+    <title>Eto12</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
+    <!-- Cabeçalho -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Barra do topo:-->
-   <header class="Barra">
-      <H1 id="Titulo">Eto12</H1>
-      <nav class="Abas">
-        <a id="Jogos" href="Jogos.html">Games</a>
-        <a id="Model" href="Modelagem.html">Modelagem</a>
-        <a id="Program" href="Programacao.html">Programação</h3>
-        <h3 id="Start">Start</h3>
-      </nav>
-      <div class="Redes">
-        <button id="Youtube"><a href="https://www.youtube.com/channel/UCrwk57q_GKF2V5rFrTORmnQ"><img src="images/YouTube.png", width="40px" height="40px"></a></button>
-        <button id="Insta"><a href=""><img src="images/Insta.png", width="40px" height="40px"></a></button>
-        <button id="Tiktok"><a href="https://www.tiktok.com/@roberto_eto12?_t=8kvTUiTPUbG&_r=1"><img src="images/Tiktok.png", width="40px" height="40px"></a></button>
-      </div>
+    <!-- Seção Hero (Início) -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Olá, eu sou <span>Eto12</span></h1>
+            <p>Desenvolvedor Full-Stack</p>
+            <a href="#projetos" class="btn">Ver Projetos</a>
+        </div>
+    </section>
 
-          <!--Menu Mobile
+    <!-- Seção Sobre -->
+    <section id="sobre" class="sobre">
+        <h2>Sobre Mim</h2>
+        <div class="sobre-content">
+            <img src="images/Roberto2.jpg" alt="Sua Foto">
+            <p>
+                Me chamo Roberto Augusto, sou um desenvolvedor full-stack querendo entrar no mercado, uso frameworks como o next.js, crio sites no código puro ou no wordpress, estou aberto a serviços, basta me chamar em algum contato 
+            </p>
+        </div>
+    </section>
 
-    <div class="MenuMob">
-      <div class="botão-fechar">
-         <h4 id="X">X</h2>
-      </div>
+    <!-- Seção Projetos -->
+    <section id="projetos" class="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="projetos-grid">
+            <!-- Projeto 1 -->
+            <div class="projeto-card">
+                <img src="images/iMenu index.png" alt="Projeto 1">
+                <h3>iMenu</h3>
+                <p>Site de edição de cardápios para restaurantes</p>
+                <a href="https://ifpi-picos.github.io/projeto-integrador-i-menu/index.html" class="btn">Ver Detalhes</a>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="projeto-card">
+                <img src="images/P3Notes index.png" alt="Projeto 2">
+                <h3>P3Notes</h3>
+                <p>Site de anotações com login e cadastro</p>
+                <a href="https://etodoze.github.io/Notes/sign.html" class="btn">Ver Detalhes</a>
+            </div>
+            <!-- Adicione mais projetos conforme necessário -->
+        </div>
+    </section>
 
-      <nav>
-        <a id="Jogos" href="Jogos.html">Games</a>
-        <a id="Model" href="Modelagem.html">Modelagem</a>
-        <a id="Program" href="Programação.html">Programação</h3>
-        <h3 id="Start">Start</h3>
-      </nav>
+    <!-- Seção Contato -->
+    <section id="contato" class="contato">
+        <h2>Contato</h2>
+<form action="https://formsubmit.co/robertoaugusto12fl@gmail.com" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="obrigado.html">
+    <input type="text" name="nome" placeholder="Seu Nome" required>
+    <input type="email" name="email" placeholder="Seu E-mail" required>
+    <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+    <button type="submit" class="btn">Enviar</button>
+</form>
+        <div class="social-links">
+            <a href="https://github.com/EtoDoze"><i class="fab fa-github"></i></a>
+           <!-- <a href="#"><i class="fab fa-linkedin"></i></a>-->
+            <a href="https://www.instagram.com/roberto.aaprile?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/5589988069214"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </section>
 
-    </div>
-  -->
-  
-   </header>
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Eto12. Todos os direitos reservados.</p>
+    </footer>
 
-    <!--Tela inicial-->
-  
-    <h1 id="welcome">Bem Vindo >-<</h1>
-
-    <nav class="Barra-Inicio">
-     <div id="texto-geral">
-        <h2 id="Atenção">ATENÇÃO!!!</h2>
-       <p id="Paragrafo">Esse site foi criado com o intuito de aprendizado<br>
-         e diversão, ele não tem nenhum intuito profissional, sério <br>
-         ou comercial, o principal objetivo do site foi mostrar as areas <br>
-         que o criador do site mais gosta de usar, e compartilhar algumas <br>
-         delas com os outros, caso você tenha gostado do meu trabalho, ou <br>
-         queira ver mais sobre mim ou meus trabalhos, você pode entrar em <br>
-         contato comigo por meio das redes sociais no canto do site, dito <br>
-         isso, espero que você goste do site :>
-       </p>
-       <p id="Paragrafo"><br><br> Vale resaltar que eu ainda sou iniciante em html, se tiver <br>
-      alguma coisa ruim ou errada com o site por favor não me julgue :<</p>
-     </div>
-    </nav>
-
+    <script src="script.js"></script>
 </body>
-
 </html>
